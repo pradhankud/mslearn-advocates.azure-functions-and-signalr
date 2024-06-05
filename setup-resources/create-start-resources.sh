@@ -32,9 +32,9 @@ printf "Using subscription: ""$SUBSCRIPTION_NAME""\n"
 
 # Set the resource group name if not provided as a parameter
 #RANDOM_STRING=$(openssl rand -hex 5)
-RANDON_STRING = "25f9e6729b"
+#RANDON_STRING = "25f9e6729b"
 ##printf "Using random string: $RANDOM_STRING\n"
-RESOURCE_GROUP_NAME="$USER_NAME-signalr-$RANDOM_STRING"
+RESOURCE_GROUP_NAME="$USER_NAME-signalr-25f9e6729b"
 
 # Create a resource group
 #az group create \
